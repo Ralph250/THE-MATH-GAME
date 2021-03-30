@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body style = "background-color: teal;">
+
+<br>    
+<button id = "logout" onclick = "logout()" class = "btn btn-danger">LOGOUT</button>
+<br>
+<br>
+<h4 id = "player_1name" style="color: white;">: <span id = "player_1score">0</span></h4>
+<br>
+<h4 id = "player_2name" style="color: white;">: <span id = "player_2score">0</span></h4>
+    <div class = "container">
+<center>
+<h1  style="color: white;">THE MATH QUIZ GAME</h1>
+
+<h3 id = "question_turn"></h3>
+<br>
+<h3 id = "answer_turn"></h3>
+<br>
+<div id = "output"></div>
+
+<h3 style="color:white;" >Number 1</h3>
+<input id = "input_1" placeholder="Number 1">
+<br><br><br>
+<h3 style="color: white;">Number 2</h3>
+<input id = "input_2" placeholder="Number 2">
+<br><br><br>
+<button class = "btn btn-info" onclick="send()">DO MATH</button>
+
+
+
+
+
+
+
+
+</center>
+</div>
+<script src = "quiz_game.js"></script>
+<link rel="stylesheet" href="quiz_game.css">
+</body>
+</html>
